@@ -10,20 +10,20 @@ module.exports = {
 
     // Disallow await inside of loops
     // https://eslint.org/docs/rules/no-await-in-loop
-    'no-await-in-loop': 'error',
+    'no-await-in-loop': 'off',
 
     // Disallow comparisons to negative zero
     // https://eslint.org/docs/rules/no-compare-neg-zero
     'no-compare-neg-zero': 'error',
 
     // disallow assignment in conditional expressions
-    'no-cond-assign': ['error', 'always'],
+    'no-cond-assign': 'off',
 
     // disallow use of console
     'no-console': 'warn',
 
     // disallow use of constant expressions in conditions
-    'no-constant-condition': 'warn',
+    'no-constant-condition': ['warn', { checkLoops: false }],
 
     // disallow control characters in regular expressions
     'no-control-regex': 'error',
@@ -41,7 +41,7 @@ module.exports = {
     'no-duplicate-case': 'error',
 
     // disallow empty statements
-    'no-empty': 'error',
+    'no-empty': ['error', { allowEmptyCatch: true }],
 
     // disallow the use of empty character classes in regular expressions
     'no-empty-character-class': 'error',
@@ -83,7 +83,7 @@ module.exports = {
 
     // disallow use of Object.prototypes builtins directly
     // https://eslint.org/docs/rules/no-prototype-builtins
-    'no-prototype-builtins': 'error',
+    'no-prototype-builtins': 'off',
 
     // disallow multiple spaces in a regular expression literal
     'no-regex-spaces': 'error',
