@@ -244,7 +244,7 @@ module.exports = {
 
     // disallow use of void operator
     // https://eslint.org/docs/rules/no-void
-    'no-void': 'error',
+    'no-void': 'off',
 
     // disallow usage of configurable warning terms in comments: e.g. todo
     'no-warning-comments': ['off', { terms: ['todo', 'fixme', 'xxx'], location: 'start' }],
@@ -254,21 +254,21 @@ module.exports = {
 
     // require using Error objects as Promise rejection reasons
     // https://eslint.org/docs/rules/prefer-promise-reject-errors
-    'prefer-promise-reject-errors': ['error', { allowEmptyReject: true }],
+    'prefer-promise-reject-errors': 'off',
 
     // require use of the second argument for parseInt()
-    radix: 'error',
+    radix: ['error', 'as-needed'],
 
     // require `await` in `async function` (note: this is a horrible rule that should never be used)
     // https://eslint.org/docs/rules/require-await
     'require-await': 'off',
 
     // requires to declare all vars on top of their containing scope
-    'vars-on-top': 'error',
+    'vars-on-top': 'off',
 
     // require immediate function invocation to be wrapped in parentheses
     // https://eslint.org/docs/rules/wrap-iife.html
-    'wrap-iife': ['error', 'outside', { functionPrototypeMethods: false }],
+    'wrap-iife': ['error', 'inside', { functionPrototypeMethods: false }],
 
     // require or disallow Yoda conditions
     yoda: 'error'
