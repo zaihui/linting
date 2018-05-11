@@ -22,7 +22,7 @@ module.exports = {
     // require parens in arrow function arguments
     // https://eslint.org/docs/rules/arrow-parens
     'arrow-parens': ['error', 'as-needed', {
-      requireForBlockBody: true,
+      requireForBlockBody: false,
     }],
 
     // require space before/after arrow function's arrow
@@ -56,7 +56,7 @@ module.exports = {
     // disallow importing from the same path more than once
     // https://eslint.org/docs/rules/no-duplicate-imports
     // replaced by https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
-    'no-duplicate-imports': 'off',
+    'no-duplicate-imports': 'error',
 
     // disallow symbol constructor
     // https://eslint.org/docs/rules/no-new-symbol
@@ -113,18 +113,7 @@ module.exports = {
 
     // Prefer destructuring from arrays and objects
     // https://eslint.org/docs/rules/prefer-destructuring
-    'prefer-destructuring': ['error', {
-      VariableDeclarator: {
-        array: false,
-        object: true,
-      },
-      AssignmentExpression: {
-        array: true,
-        object: true,
-      },
-    }, {
-      enforceForRenamedProperties: false,
-    }],
+    'prefer-destructuring': 'off',
 
     // disallow parseInt() in favor of binary, octal, and hexadecimal literals
     // https://eslint.org/docs/rules/prefer-numeric-literals
@@ -136,11 +125,11 @@ module.exports = {
 
     // use rest parameters instead of arguments
     // https://eslint.org/docs/rules/prefer-rest-params
-    'prefer-rest-params': 'error',
+    'prefer-rest-params': 'off',
 
     // suggest using the spread operator instead of .apply()
     // https://eslint.org/docs/rules/prefer-spread
-    'prefer-spread': 'error',
+    'prefer-spread': 'off',
 
     // suggest using template literals instead of string concatenation
     // https://eslint.org/docs/rules/prefer-template
