@@ -12,6 +12,9 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
