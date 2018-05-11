@@ -1,5 +1,5 @@
 {
-  "name": "eslint-plugin-zaihui-base",
+  "name": "@zaihui/eslint-plugin-zaihui-base",
   "version": "0.0.0",
   "description": "base eslint rules",
   "keywords": [
