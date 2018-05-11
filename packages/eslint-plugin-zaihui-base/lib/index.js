@@ -11,7 +11,6 @@ module.exports = {
     './style',
     './variables',
     './es6',
-    './imports',
   ].map(require.resolve),
   parserOptions: {
     ecmaVersion: 2017,
