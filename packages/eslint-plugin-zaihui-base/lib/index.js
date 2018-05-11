@@ -9,7 +9,6 @@ module.exports = {
     './errors',
     './node',
     './style',
-    './variables',
     './es6',
   ].map(require.resolve),
   parserOptions: {
