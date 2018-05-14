@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-zaihui-react",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "react eslint rules",
   "keywords": [
     "eslint",
@@ -16,8 +16,8 @@
     "access": "public"
   },
   "dependencies": {
+    "@zaihui/eslint-config-zaihui-base": "^1.0.0",
     "eslint-plugin-react": "^7.7.0",
-    "@zaihui/eslint-config-zaihui-base": "^0.0.2",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
