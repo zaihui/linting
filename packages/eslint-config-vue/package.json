@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zaihui/eslint-config-zaihui-base": "^1.0.0",
+    "@zaihui/eslint-config-base": "^1.0.0",
     "eslint-plugin-vue": "^4.5.0",
     "requireindex": "~1.1.0"
   },

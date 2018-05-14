@@ -5,7 +5,7 @@
 
 module.exports = {
   extends: [
-    '@zaihui/zaihui-base',
+    '@zaihui/base',
     require.resolve('./vue')
   ],
   parserOptions: {
