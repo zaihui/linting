@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-zaihui-vue",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
@@ -16,13 +16,13 @@
     "access": "public"
   },
   "dependencies": {
-    "requireindex": "~1.1.0",
-    "@zaihui/eslint-plugin-zaihui-base": "^0.0.1"
+    "@zaihui/eslint-plugin-zaihui-base": "^0.0.1",
+    "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "~3.9.1",
-    "mocha": "^3.1.2",
-    "eslint-plugin-vue": "^4.5.0"
+    "eslint-plugin-vue": "^4.5.0",
+    "mocha": "^3.1.2"
   },
   "peerDependencies": {
     "eslint": "^4.19.1",

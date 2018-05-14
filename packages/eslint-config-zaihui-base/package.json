@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-zaihui-base",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "base eslint rules",
   "keywords": [
     "eslint",
