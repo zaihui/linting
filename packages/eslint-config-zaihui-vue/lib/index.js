@@ -5,7 +5,8 @@
 
 module.exports = {
   extends: [
-    'plugin:vue/essential'
+    '@zaihui/zaihui-base',
+    require.resolve('./vue')
   ],
   parserOptions: {
     ecmaVersion: 2017,
