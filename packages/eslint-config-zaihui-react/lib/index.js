@@ -5,7 +5,7 @@
 
 module.exports = {
   extends: [
-    '@zaihui/eslint-plugin-zaihui-base',
+    '@zaihui/zaihui-base',
     require.resolve('./react'),
   ],
   parserOptions: {
