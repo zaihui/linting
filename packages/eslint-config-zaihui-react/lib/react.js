@@ -22,7 +22,7 @@ module.exports = {
 
     // Forbid certain propTypes (any, array, object)
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/forbid-prop-types.md
-    'react/forbid-prop-types': ['error', {
+    'react/forbid-prop-types': ['off', {
       forbid: ['any', 'array', 'object'],
       checkContextTypes: true,
       checkChildContextTypes: true,
@@ -69,7 +69,7 @@ module.exports = {
 
     // Prevent usage of .bind() in JSX props
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-bind.md
-    'react/jsx-no-bind': ['error', {
+    'react/jsx-no-bind': ['off', {
       ignoreRefs: true,
       allowArrowFunctions: true,
       allowBind: false,
@@ -137,7 +137,7 @@ module.exports = {
 
     // Prevent usage of deprecated methods
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-deprecated.md
-    'react/no-deprecated': ['error'],
+    'react/no-deprecated': 'off',
 
     // Prevent usage of setState in componentDidMount
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-did-mount-set-state.md
@@ -154,7 +154,7 @@ module.exports = {
 
     // Prevent direct mutation of this.state
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-direct-mutation-state.md
-    'react/no-direct-mutation-state': 'off',
+    'react/no-direct-mutation-state': 'error',
 
     // Prevent usage of isMounted
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-is-mounted.md
@@ -162,7 +162,7 @@ module.exports = {
 
     // Prevent multiple component definition per file
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
-    'react/no-multi-comp': ['error', { ignoreStateless: true }],
+    'react/no-multi-comp': ['off', { ignoreStateless: true }],
 
     // Prevent usage of setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
@@ -182,11 +182,11 @@ module.exports = {
 
     // Require stateless functions when not using lifecycle methods, setState or ref
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prefer-stateless-function.md
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
+    'react/prefer-stateless-function': ['off', { ignorePureComponents: true }],
 
     // Prevent missing props validation in a React component definition
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-    'react/prop-types': ['error', {
+    'react/prop-types': ['off', {
       ignore: [],
       customValidators: [],
       skipUndeclared: false
@@ -202,11 +202,12 @@ module.exports = {
 
     // Prevent extra closing tags for components without children
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
-    'react/self-closing-comp': 'error',
+    'react/self-closing-comp': ['error', { component: true, html: false }],
 
     // Enforce component methods order
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/sort-comp.md
-    'react/sort-comp': ['error', {
+    // TODO: @JK enable?
+    'react/sort-comp': ['off', {
       order: [
         'static-methods',
         'instance-variables',
@@ -250,7 +251,7 @@ module.exports = {
 
     // Prevent missing parentheses around multilines JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-wrap-multilines.md
-    'react/jsx-wrap-multilines': ['error', {
+    'react/jsx-wrap-multilines': ['off', {
       declaration: 'parens-new-line',
       assignment: 'parens-new-line',
       return: 'parens-new-line',
@@ -274,11 +275,11 @@ module.exports = {
 
     // Disallow target="_blank" on links
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-target-blank.md
-    'react/jsx-no-target-blank': 'error',
+    'react/jsx-no-target-blank': 'off',
 
     // only .jsx files may have JSX
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-filename-extension.md
-    'react/jsx-filename-extension': ['error', { extensions: ['.jsx'] }],
+    'react/jsx-filename-extension': ['off', { extensions: ['.jsx'] }],
 
     // prevent accidental JS comments from being injected into JSX as text
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-no-comment-textnodes.md
@@ -310,7 +311,7 @@ module.exports = {
 
     // Prevent unused propType definitions
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-unused-prop-types.md
-    'react/no-unused-prop-types': ['error', {
+    'react/no-unused-prop-types': ['off', {
       customValidators: [
       ],
       skipShapeProps: true,
@@ -344,11 +345,11 @@ module.exports = {
 
     // Prevent usage of Array index in keys
     // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-array-index-key.md
-    'react/no-array-index-key': 'error',
+    'react/no-array-index-key': 'off',
 
     // Enforce a defaultProps definition for every prop that is not a required prop
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/require-default-props.md
-    'react/require-default-props': ['error', {
+    'react/require-default-props': ['off', {
       forbidDefaultForRequired: true,
     }],
 
@@ -391,19 +392,19 @@ module.exports = {
 
     // One JSX Element Per Line
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/jsx-one-expression-per-line.md
-    'react/jsx-one-expression-per-line': 'error',
+    'react/jsx-one-expression-per-line': 'off',
 
     // Enforce consistent usage of destructuring assignment of props, state, and context
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/destructuring-assignment.md
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': ['off', 'always'],
 
     // Prevent using this.state within a this.setState
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/no-access-state-in-setstate.md
-    'react/no-access-state-in-setstate': 'error',
+    'react/no-access-state-in-setstate': 'off',
 
     // Prevent usage of button elements without an explicit type attribute
     // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/button-has-type.md
-    'react/button-has-type': ['error', {
+    'react/button-has-type': ['off', {
       button: true,
       submit: true,
       reset: false,
