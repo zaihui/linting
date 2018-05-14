@@ -1,7 +1,7 @@
 {
-  "name": "@zaihui/eslint-config-zaihui-vue",
-  "version": "1.0.0",
-  "description": "vue eslint rules",
+  "name": "@zaihui/eslint-config-react",
+  "version": "0.0.0",
+  "description": "react eslint rules",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -17,12 +17,12 @@
   },
   "dependencies": {
     "@zaihui/eslint-config-zaihui-base": "^1.0.0",
-    "eslint-plugin-vue": "^4.5.0",
+    "eslint-plugin-react": "^7.7.0",
     "requireindex": "~1.1.0"
   },
   "devDependencies": {
     "eslint": "^4.19.1",
-    "vue": "^2.5.16"
+    "react": "^16.3.2"
   },
   "engines": {
     "node": ">=0.10.0"
