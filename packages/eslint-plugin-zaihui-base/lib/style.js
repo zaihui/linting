@@ -419,7 +419,7 @@ module.exports = {
     'require-jsdoc': 'off',
 
     // require or disallow use of semicolons instead of ASI
-    semi: ['error', 'never', { omitLastInOneLineBlock: true }],
+    semi: ['error', 'never'],
 
     // enforce spacing before and after semicolons
     'semi-spacing': ['error', { before: false, after: true }],
