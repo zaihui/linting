@@ -76,7 +76,7 @@ module.exports = {
         'static-method-regex': /^[a-z$][\w\d]+$/,
       }, // 23.1
     ],
-    'import-name': true, // 23.6
+    'import-name': false, // 23.6
 
     // tslint
     'prefer-const': true, // 2.1, 13.1
