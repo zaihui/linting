@@ -23,7 +23,7 @@ module.exports = {
     'ter-arrow-parens': [
       true,
       'as-needed',
-      { 'requireForBlockBody': true },
+      { 'requireForBlockBody': false },
     ], // 8.4
     'brace-style': [
       true,
@@ -67,7 +67,7 @@ module.exports = {
     'no-function-constructor-with-string-args': true, // 7.10
     'no-increment-decrement': false, // 13.6
     'function-name': [
-      true,
+      false,
       {
         'function-regex': /^[a-z$][\w\d]+$/,
         'method-regex': /^[a-z$][\w\d]+$/,
