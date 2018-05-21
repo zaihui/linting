@@ -129,7 +129,7 @@ module.exports = {
     semicolon: [true, 'never'], // 21.1
     'no-construct': true, // 22.2, 22.3, 22.6
     radix: false, // 22.3
-    'variable-name': [true, 'check-format'], // 23.2
+    'variable-name': [true, 'check-format', 'allow-pascal-case'], // 23.2
     'no-this-assignment': false, // 23.5
   },
 };
