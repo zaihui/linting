@@ -118,7 +118,15 @@ module.exports = {
       'check-preblock', // 19.2
     ],
     eofline: true, // 19.5
-    'max-line-length': [true, 100], // 19.12
+    'max-line-length': [true, {
+      'limit': 100,
+      // ignore:
+      // - in-line comments
+      // - import statements
+      // - multiple export statements
+      // - class declarations implementing interfaces
+      'ignore-pattern': '^import |^export {(.*?)}|class [a-zA-Z]+ implements |//'
+    }], // 19.12
     'trailing-comma': [
       true,
       {
