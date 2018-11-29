@@ -19,9 +19,11 @@ module.exports = {
   rules: requireIndex(__dirname + "/rules"),
   configs: {
     'recommended': {
-      'plugins': ['@zaihui/customizing'],
+      plugins: ['@zaihui/customizing'],
       rules: {
-        '@zaihui/customizing/enforce-lowercase': 2
+        '@zaihui/customizing/no-camel-openid': 1,
+        '@zaihui/customizing/no-camel-unionid': 1,
+        '@zaihui/customizing/no-camel-appid': 1
       }
     }
   },
