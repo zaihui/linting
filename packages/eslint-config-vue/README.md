@@ -1,36 +1,29 @@
-# eslint-plugin-zaihui-base
+# @zaihui/eslint-plugin-vue
 
-base eslint rules
+eslint vue rules
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-zaihui-base`:
-
-```
-$ npm install eslint-plugin-zaihui-base --save-dev
+```bash
+npm i eslint --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-zaihui-base` globally.
+Next, install `@zaihui/eslint-config-vue`:
+
+```bash
+npm install @zaihui/eslint-config-vue--save-dev
+```
+
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@zaihui/eslint-config-vue` globally.
 
 ## Usage
 
-Add `zaihui-base` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@zaihui/vue` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-config-` prefix:
 
 ```json
 {
-    "plugins": [
-        "zaihui-base"
-    ]
+  "plugins": ["@zaihui/vue"]
 }
 ```
-
-
-
-
-

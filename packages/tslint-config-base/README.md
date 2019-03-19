@@ -1,36 +1,19 @@
-# eslint-plugin-zaihui-typescript
+# @zaihui/tslint-config-base
 
-base eslint rules
+tslint base rules
 
 ## Installation
 
-You'll first need to install [ESLint](http://eslint.org):
-
+```bash
+npm install @zaihui/tslint-config-base --save-dev
 ```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-zaihui-base`:
-
-```
-$ npm install eslint-plugin-zaihui-base --save-dev
-```
-
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-zaihui-base` globally.
 
 ## Usage
 
-Add `zaihui-base` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+Add `@zaihui/tslint-config-base` to the extends section of your `tsling.json` configuration file.
 
 ```json
 {
-    "plugins": [
-        "zaihui-base"
-    ]
+  "extends": ["@zaihui/tslint-config-base"]
 }
 ```
-
-
-
-
-

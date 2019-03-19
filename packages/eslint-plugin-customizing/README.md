@@ -1,22 +1,22 @@
-# eslint-plugin-customizing
+# @zaihui/eslint-plugin-customizing
 
-customize rule for zaihui 
+customize rule for zaihui
 
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):
 
-```
-$ npm i eslint --save-dev
-```
-
-Next, install `eslint-plugin-customizing`:
-
-```
-$ npm install eslint-plugin-customizing --save-dev
+```bash
+npm i eslint --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-customizing` globally.
+Next, install `@zaihui/eslint-plugin-customizing`:
+
+```bash
+npm install @zaihui/eslint-plugin-customizing --save-dev
+```
+
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@zaihui/eslint-plugin-customizing` globally.
 
 ## Usage A
 
@@ -24,9 +24,7 @@ Add `customizing` to the plugins section of your `.eslintrc` configuration file.
 
 ```json
 {
-    "plugins": [
-        "@zaihui/customizing"
-    ]
+  "plugins": ["@zaihui/customizing"]
 }
 ```
 
@@ -34,9 +32,9 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "@zaihui/customizing/rule-name": 2
-    }
+  "rules": {
+    "@zaihui/customizing/rule-name": 2
+  }
 }
 ```
 
@@ -44,7 +42,7 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "extends": ["plugin:@zaihui/customizing/recommended"],
+  "extends": ["plugin:@zaihui/customizing/recommended"]
 }
 ```
 
@@ -52,15 +50,12 @@ Then configure the rules you want to use under the rules section.
 
 ```json
 {
-    "rules": {
-        "customizing/rule-name": 2
-    }
+  "rules": {
+    "customizing/rule-name": 2
+  }
 }
 ```
 
-
 ## Supported Rules
 
-* Fill in provided rules here
-
-
+- Fill in provided rules here
