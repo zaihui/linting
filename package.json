@@ -1,6 +1,11 @@
 {
-	"private": true,
-	"devDependencies": {
-		"lerna": "^2.11.0"
-	}
+  "name": "zaihui-linting",
+  "private": true,
+  "scripts": {
+    "prerelease": "lerna version prerelease",
+    "publish": "lerna publish"
+  },
+  "devDependencies": {
+    "lerna": "^3.13.1"
+  }
 }
