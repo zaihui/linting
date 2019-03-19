@@ -223,6 +223,13 @@ module.exports = {
       allowTaggedTemplates: true,
     }],
 
+    // https://eslint.org/docs/rules/no-unused-vars#disallow-unused-variables-no-unused-vars
+    // ignore unused args and restSiblings
+    'no-unused-vars': [
+      'error',
+      { args: 'none', ignoreRestSiblings: true },
+    ],
+
     // disallow unused labels
     // https://eslint.org/docs/rules/no-unused-labels
     'no-unused-labels': 'error',
