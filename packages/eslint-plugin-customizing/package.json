@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-customizing",
-  "version": "1.0.1",
+  "version": "1.0.7-alpha.0",
   "description": "customize rule for zaihui ",
   "keywords": [
     "eslint",
@@ -9,6 +9,9 @@
   ],
   "author": "huangzilong",
   "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "test": "mocha tests --recursive"
   },

@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/tslint-config-base",
-  "version": "1.0.6",
+  "version": "1.0.7-alpha.0",
   "description": "typescript eslint rules",
   "keywords": [
     "eslint",
