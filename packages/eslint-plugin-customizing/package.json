@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-customizing",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "customize rule for zaihui ",
   "keywords": [
     "eslint",
