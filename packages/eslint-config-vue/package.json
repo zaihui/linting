@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-vue",
-  "version": "1.0.3",
+  "version": "1.0.8",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
@@ -16,7 +16,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zaihui/eslint-config-base": "^1.0.1",
+    "@zaihui/eslint-config-base": "^1.0.8",
     "eslint-plugin-vue": "^4.5.0",
     "requireindex": "~1.1.0"
   },
