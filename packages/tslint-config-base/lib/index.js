@@ -99,7 +99,6 @@ module.exports = {
     'no-parameter-reassignment': false, // 7.12
     align: [
       true,
-      'arguments',
       'parameters',
     ], // 7.15
     'arrow-parens': false, // 8.2
