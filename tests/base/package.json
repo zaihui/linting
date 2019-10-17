@@ -1,0 +1,14 @@
+{
+  "name": "test-base",
+  "version": "1.0.0",
+  "description": "test eslint-config-base",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint src --ext .js --no-fix"
+  },
+  "devDependencies": {
+    "@zaihui/eslint-config-base": "^1.1.0",
+    "eslint": "^6.5.1"
+  }
+}

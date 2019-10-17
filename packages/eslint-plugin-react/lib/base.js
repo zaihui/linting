@@ -2,8 +2,14 @@ module.exports = {
   plugins: [
     'react',
   ],
-
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    '@zaihui/base',
+  ],
   parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
     ecmaFeatures: {
       jsx: true,
     },
@@ -437,5 +443,10 @@ module.exports = {
       'exact', // https://www.npmjs.com/package/prop-types-exact
       'Object.freeze', // https://tc39.github.io/ecma262/#sec-object.freeze
     ],
-  }
+  },
+
+  env: {
+    browser: true,
+    es6: true
+  },
 };

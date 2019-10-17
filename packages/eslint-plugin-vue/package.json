@@ -1,6 +1,6 @@
 {
-  "name": "@zaihui/eslint-config-vue",
-  "version": "1.0.8",
+  "name": "@zaihui/eslint-plugin-vue",
+  "version": "1.1.0",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
@@ -9,20 +9,14 @@
   ],
   "author": "jkzing",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@zaihui/eslint-config-base": "^1.0.8",
-    "eslint-plugin-vue": "^4.5.0",
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@zaihui/eslint-config-base": "^1.1.0",
+    "eslint-plugin-vue": "^5.2.3",
     "requireindex": "~1.1.0"
-  },
-  "devDependencies": {
-    "eslint": "^4.19.1",
-    "vue": "^2.5.16"
   },
   "engines": {
     "node": ">=0.10.0"

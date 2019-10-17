@@ -1,5 +1,7 @@
 module.exports = {
-  extends: require.resolve('../lib/index'),
+  extends: [
+    '@zaihui/base'
+  ],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',

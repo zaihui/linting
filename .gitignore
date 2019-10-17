@@ -2,7 +2,6 @@ node_modules
 .DS_Store
 design
 *.log
-packages/test
 packages/eslint-config-typescript
 dist
 temp

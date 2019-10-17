@@ -1,12 +1,14 @@
 <template>
   <button
-    data-type="button"
+    dataType="button"
     data-name="xxx"
+    data-a="x"
     data-a="x"
     data-b="==="
   >
-    <img src="./logo.png">
-    <slot />
+        <img src="./logo.png"/>
+    <slot/>
+    <div></div>
   </button>
 </template>
 

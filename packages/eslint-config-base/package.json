@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-base",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "base eslint rules",
   "keywords": [
     "eslint",
@@ -9,20 +9,17 @@
   ],
   "author": "jkzing",
   "main": "lib/index.js",
-  "scripts": {
-    "test": "mocha tests --recursive"
-  },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
     "requireindex": "~1.1.0"
   },
-  "devDependencies": {
-    "eslint": "^4.19.1"
-  },
   "engines": {
     "node": ">=0.10.0"
   },
-  "license": "ISC"
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^6.5.1"
+  }
 }

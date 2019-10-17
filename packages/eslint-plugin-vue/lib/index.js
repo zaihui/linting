@@ -4,13 +4,9 @@
  */
 
 module.exports = {
-  extends: [
-    '@zaihui/base',
-    require.resolve('./vue')
-  ],
-  parserOptions: {
-    ecmaVersion: 2017,
-    sourceType: 'module',
+  configs: {
+    'base': require('./base'),
+    'with-ts': require('./ts'),
   },
   rules: {
     strict: 'error',

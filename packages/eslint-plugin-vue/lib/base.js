@@ -1,8 +1,21 @@
 module.exports = {
+  parser: 'vue-eslint-parser',
+  parserOptions: {
+    ecmaVersion: 2017,
+    sourceType: 'module',
+  },
   extends: [
-    'plugin:vue/recommended'
+    '@zaihui/base',
+    'plugin:vue/base',
+    'plugin:vue/recommended',
   ],
-
+  env: {
+    browser: true,
+    es6: true
+  },
+  plugins: [
+    'vue'
+  ],
   // override recommended rules
   // find details at https://github.com/vuejs/eslint-plugin-vue
   rules: {
@@ -10,4 +23,4 @@ module.exports = {
     'vue/html-closing-bracket-newline': ['error', { multiline: 'always' }],
     'vue/html-closing-bracket-spacing': 'error'
   }
-};
+}

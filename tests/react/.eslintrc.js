@@ -1,7 +1,12 @@
 module.exports = {
-  extends: require.resolve('../lib/index'),
+  extends: [
+    'plugin:@zaihui/react/base',
+  ],
   parserOptions: {
     ecmaVersion: 2017,
     sourceType: 'module',
   },
+  plugins: [
+    '@zaihui/react'
+  ]
 }
