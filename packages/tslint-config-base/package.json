@@ -1,0 +1,31 @@
+{
+  "name": "@zaihui/tslint-config-base",
+  "version": "1.0.6",
+  "description": "typescript eslint rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "jkzing",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "tslint tests/base.ts --format stylish"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "tslint-consistent-codestyle": "^1.13.0",
+    "tslint-eslint-rules": "^5.3.1",
+    "tslint-microsoft-contrib": "^5.0.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.1"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "@zaihui/eslint-config-react",
+  "version": "1.0.3",
+  "description": "react eslint rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "jkzing",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@zaihui/eslint-config-base": "^1.0.1",
+    "eslint-plugin-react": "^7.7.0",
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "react": "^16.3.2"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
