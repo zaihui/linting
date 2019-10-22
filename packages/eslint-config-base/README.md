@@ -1,4 +1,4 @@
-# eslint-plugin-zaihui-base
+# @zaihui/eslint-config-base
 
 base eslint rules
 
@@ -10,13 +10,13 @@ You'll first need to install [ESLint](http://eslint.org):
 $ npm i eslint --save-dev
 ```
 
-Next, install `eslint-plugin-zaihui-base`:
+Next, install `@zaihui/eslint-config-base`:
 
 ```
-$ npm install eslint-plugin-zaihui-base --save-dev
+$ npm install @zaihui/eslint-config-base --save-dev
 ```
 
-**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-zaihui-base` globally.
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `@zaihui/eslint-config-base` globally.
 
 ## Usage
 
@@ -24,8 +24,8 @@ Add `zaihui-base` to the plugins section of your `.eslintrc` configuration file.
 
 ```json
 {
-    "plugins": [
-        "zaihui-base"
+    "extends": [
+        "@zaihui/base"
     ]
 }
 ```

@@ -1,6 +1,15 @@
 {
 	"private": true,
+	"name": "@zaihui/linting",
+	"scripts": {
+		"publish": "lerna publish --no-verify-access"
+	},
 	"devDependencies": {
-		"lerna": "^2.11.0"
-	}
+		"lerna": "^3.18.1"
+	},
+	"workspaces": {
+    "packages": [
+			"packages/*"
+    ]
+  }
 }

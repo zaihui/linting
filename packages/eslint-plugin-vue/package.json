@@ -1,0 +1,45 @@
+{
+  "name": "@zaihui/eslint-plugin-vue",
+  "version": "2.0.0",
+  "description": "vue eslint rules",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "jkzing",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint:vue": "eslint test --ext .vue --no-fix",
+    "lint:ts": "eslint test --ext=.ts,tsx --no-fix",
+    "lint:es": "eslint test --ext .js --no-fix",
+    "lint": "eslint test --no-fix"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.5.0",
+    "@typescript-eslint/parser": "^2.4.0",
+    "@zaihui/eslint-config-base": "^2.0.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "requireindex": "~1.1.0",
+    "ts-loader": "^6.2.1"
+  },
+  "devDependencies": {
+    "tslint": "^5.20.0",
+    "typescript": "^3.2.1",
+    "vue": "^2.6.10"
+  },
+  "peerDependencies": {
+    "eslint": "^5.4.0"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
