@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-react",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "react eslint rules",
   "keywords": [
     "eslint",
@@ -19,7 +19,7 @@
     "lint": "eslint test --ext .jsx --no-fix"
   },
   "dependencies": {
-    "@zaihui/eslint-config-base": "^2.0.0",
+    "@zaihui/eslint-config-base": "^2.0.1",
     "eslint-plugin-react": "^7.7.0",
     "requireindex": "~1.1.0"
   },
