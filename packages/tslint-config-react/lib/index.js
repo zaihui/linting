@@ -6,8 +6,8 @@ const path = require('path');
 
 module.exports = {
   extends: [
-    '@zaihui/tslint-config-base',
     'tslint-react',
+    '@zaihui/tslint-config-base',
   ],
   rules: {
     'jsx-alignment': true,

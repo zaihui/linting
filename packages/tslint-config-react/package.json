@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/tslint-config-react",
-  "version": "1.0.6",
+  "version": "2.0.0",
   "description": "typescript eslint rules",
   "keywords": [
     "eslint",
@@ -10,19 +10,19 @@
   "author": "jkzing",
   "main": "lib/index.js",
   "scripts": {
-    "lint": "tslint tests/base.tsx --format stylish"
+    "lint": "tslint test/base.tsx --format stylish"
   },
   "publishConfig": {
     "access": "public"
   },
   "dependencies": {
-    "@zaihui/tslint-config-base": "^1.0.6",
+    "@zaihui/tslint-config-base": "^2.0.0",
+    "tslint": "^5.10.0",
     "tslint-react": "^3.6.0"
   },
   "devDependencies": {
     "react": "^16.3.2",
-    "tslint": "^5.10.0",
-    "typescript": "^2.8.1"
+    "typescript": "^3.6.4"
   },
   "engines": {
     "node": ">=0.10.0"
