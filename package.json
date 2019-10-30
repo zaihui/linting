@@ -1,9 +1,6 @@
 {
 	"private": true,
 	"name": "@zaihui/linting",
-	"scripts": {
-		"publish": "lerna publish --no-verify-access"
-	},
 	"devDependencies": {
 		"lerna": "^3.18.1"
 	},
