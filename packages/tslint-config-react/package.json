@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/tslint-config-react",
-  "version": "2.0.1",
+  "version": "2.0.3",
   "description": "typescript eslint rules",
   "keywords": [
     "eslint",
@@ -19,7 +19,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@zaihui/tslint-config-base": "^2.0.1",
+    "@zaihui/tslint-config-base": "^2.0.3",
     "tslint": "^5.10.0",
     "tslint-react": "^3.6.0"
   },
