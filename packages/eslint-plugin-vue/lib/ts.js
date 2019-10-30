@@ -175,7 +175,7 @@ module.exports = {
 								true,
 								{
 									"multiline": "always",
-									"singleline": "always"
+									"singleline": "never"
 								}
 							],
 							"whitespace": [
