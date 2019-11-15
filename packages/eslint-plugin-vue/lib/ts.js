@@ -18,8 +18,9 @@ module.exports = {
     'vue'
   ],
   rules: {
-    "@typescript-eslint/indent": ["error", 2],
-    "@typescript-eslint/member-delimiter-style": [
+		"@typescript-eslint/explicit-function-return-type": "off",
+		"@typescript-eslint/indent": ["error", 2],
+		"@typescript-eslint/member-delimiter-style": [
 			"error",
 			{
 				"multiline": {
@@ -31,17 +32,17 @@ module.exports = {
 					"requireLast": false
 				}
 			}
-    ],
-    "@typescript-eslint/no-param-reassign": "off",
-    "@typescript-eslint/no-this-alias": "off",
-    "@typescript-eslint/quotes": [
+		],
+		"@typescript-eslint/no-param-reassign": "off",
+		"@typescript-eslint/no-this-alias": "off",
+		"@typescript-eslint/quotes": [
 			"error",
 			"single"
-    ],
-    "@typescript-eslint/semi": [
+		],
+		"@typescript-eslint/semi": [
 			"error",
 			"never"
-    ],
+		],
     "arrow-parens": [
 			"off",
 			"as-needed"
@@ -95,6 +96,7 @@ module.exports = {
         },
       },
       rules: {
+				"@typescript-eslint/explicit-function-return-type": ["warn"],
         "@typescript-eslint/tslint/config": [
           "error",
           {
