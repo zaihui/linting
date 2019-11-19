@@ -27,7 +27,7 @@
     "react": "^16.3.2"
   },
   "peerDependencies": {
-    "eslint": "^5.4.0"
+    "eslint": ">=5.4.0"
   },
   "engines": {
     "node": ">=0.10.0"

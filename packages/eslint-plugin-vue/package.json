@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-vue",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
@@ -37,7 +37,7 @@
     "vue": "^2.6.10"
   },
   "peerDependencies": {
-    "eslint": "^5.4.0"
+    "eslint": ">=5.4.0"
   },
   "engines": {
     "node": ">=0.10.0"
