@@ -84,7 +84,8 @@ module.exports = {
 				"anonymous": "always",
 				"named": "never"
 			}
-    ],
+		],
+		'@typescript-eslint/explicit-function-return-type': 'off',
   },
   overrides: [
     {
