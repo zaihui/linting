@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-config-base",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "base eslint rules",
   "keywords": [
     "eslint",
@@ -27,5 +27,6 @@
   "peerDependencies": {
     "eslint": ">=5.4.0"
   },
+  "homepage": "https://aria2.kezaihui.com/fe/linting",
   "license": "ISC"
 }

@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-vue",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
@@ -42,5 +42,6 @@
   "engines": {
     "node": ">=0.10.0"
   },
+  "homepage": "https://aria2.kezaihui.com/fe/linting",
   "license": "ISC"
 }
