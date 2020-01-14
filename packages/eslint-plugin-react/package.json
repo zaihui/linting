@@ -16,9 +16,10 @@
     "access": "public"
   },
   "scripts": {
-    "lint": "eslint test --ext .jsx --no-fix"
+    "lint": "eslint test --ext .jsx,.tsx --no-fix"
   },
   "dependencies": {
+    "@typescript-eslint/parser": "^2.16.0",
     "@zaihui/eslint-config-base": "^2.0.5",
     "eslint-plugin-react": "^7.7.0",
     "requireindex": "~1.1.0"

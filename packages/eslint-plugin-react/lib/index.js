@@ -7,9 +7,6 @@ module.exports = {
   configs: {
     base: require('./base')
   },
-  rules: {
-    strict: 'error',
-  },
 }
 
 
