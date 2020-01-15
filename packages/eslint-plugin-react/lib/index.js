@@ -5,9 +5,7 @@
 
 module.exports = {
   configs: {
-    base: require('./base')
+    base: require('./base'),
+    'with-ts': require('./ts'),
   },
 }
-
-
-
