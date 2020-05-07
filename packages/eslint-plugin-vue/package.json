@@ -22,11 +22,11 @@
     "access": "public"
   },
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^2.4.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.5.0",
-    "@typescript-eslint/parser": "2.6.0",
+    "@typescript-eslint/eslint-plugin": "^2.31.0",
+    "@typescript-eslint/eslint-plugin-tslint": "^2.31.0",
+    "@typescript-eslint/parser": "^2.31.0",
     "@zaihui/eslint-config-base": "^2.0.7",
-    "eslint-plugin-vue": "^5.2.3",
+    "eslint-plugin-vue": "^6.2.2",
     "requireindex": "~1.1.0",
     "ts-loader": "^6.2.1"
   },
