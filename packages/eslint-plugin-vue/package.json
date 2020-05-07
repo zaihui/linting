@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-vue",
-  "version": "2.0.7",
+  "version": "2.0.9",
   "description": "vue eslint rules",
   "keywords": [
     "eslint",
