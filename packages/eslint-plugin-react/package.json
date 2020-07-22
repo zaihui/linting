@@ -1,6 +1,6 @@
 {
   "name": "@zaihui/eslint-plugin-react",
-  "version": "2.0.8",
+  "version": "2.1.0",
   "description": "react eslint rules",
   "keywords": [
     "eslint",
@@ -35,5 +35,6 @@
     "node": ">=0.10.0"
   },
   "homepage": "https://aria2.kezaihui.com/fe/linting",
-  "license": "ISC"
+  "license": "ISC",
+  "gitHead": "cba3a3674ed6ffff98611ae4dc3fbbad7f732e81"
 }
